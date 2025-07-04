@@ -1,4 +1,4 @@
-set(target Point2D)
+set(TARGET Point2D)
 
-add_library(${target} STATIC Point2D.cpp)
-target_include_directories(${target} PUBLIC .)
+add_library(${TARGET} STATIC Point2D.cpp)
+target_include_directories(${TARGET} PUBLIC .)

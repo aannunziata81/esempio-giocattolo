@@ -1,6 +1,6 @@
-set(target Point3D)
+set(TARGET Point3D)
 
-add_library(${target} STATIC Point3D.cpp)
-target_include_directories(${target} PUBLIC .)
+add_library(${TARGET} STATIC Point3D.cpp)
+target_include_directories(${TARGET} PUBLIC .)
 
-target_link_libraries(${target} PRIVATE Point2D)
+target_link_libraries(${TARGET} PRIVATE Point2D)
