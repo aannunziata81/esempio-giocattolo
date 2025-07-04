@@ -1,7 +1,7 @@
 #include "Point2D.h"
 #include <sstream>
 
-Point2D::Point2D(int x, int y) : Point2D(), x{x}, y{y} {
+Point2D::Point2D(int x, int y) : x{x}, y{y} {
 }
 
 int Point2D::getX() const {
