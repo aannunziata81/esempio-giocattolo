@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Point2D.h"
-#include "Point3D.h"
+#include <Point2D.h>
+#include <Point3D.h>
 
 int main(int argc, char const *argv[])
 {
