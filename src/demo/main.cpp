@@ -1,11 +1,11 @@
 #include <iostream>
 
-void sumTwoElements(const int &element1, const int &element2, int &total)
+void sumTwoElements(int element1, int element2, int &total)
 {
   total = element1 + element2;
 }
 
-void subtractionTwoElements(const int &element1, const int &element2, int &total)
+void subtractionTwoElements(int element1, int element2, int &total)
 {
   total = element1 - element2;
 }
