@@ -4,8 +4,6 @@
 #include "Point2D.h"
 
 class Point3D : public Point2D {
-private:
-    int z = 0;
 public:
     Point3D() = default;
     Point3D(int x, int y, int z);
@@ -15,6 +13,9 @@ public:
     void setZ(int z);
 
     std::string toString() const override;
+
+private:
+    int z = 0;
 };
 
 #endif

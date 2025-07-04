@@ -4,10 +4,6 @@
 #include <string>
 
 class Point2D {
-private:
-    int x = 0;
-    int y = 0;
-
 public:
     Point2D() = default;
     Point2D(int x, int y);
@@ -21,6 +17,10 @@ public:
     virtual std::string toString() const;
 
     friend std::ostream & operator<<(std::ostream & stream, Point2D const & point2D);
+
+private:
+    int x = 0;
+    int y = 0;
 };
 
 #endif
